@@ -1,0 +1,36 @@
+header {
+  background: var(--secondary-background-color);
+  display: flex;
+  padding: 1em;
+  gap: 1em;
+}
+
+.title {
+  font-family: 'Kurale';
+  font-size: 22px;
+  color: black;
+}
+
+a.no-underline {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a.no-underline:hover, a.no-underline:focus {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.text-logo {
+  font-family: var(--title-font-family);
+}
+
+.search-bar {
+  padding: 0.5em;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+}
