@@ -1,27 +1,52 @@
 .home-page {
   display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center;
+  align-items: center;
 }
 
 .welcome-text {
-  width: 20em;
-}
-
-.category-image-items {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 1em;
-}
-
-.category-image-items a {
   text-align: center;
-  cursor: pointer;
+  padding: 32px 64px 0px;
+  font-size: 24px;
 }
 
-.category-image-items div {
-  padding: 0.5em 0;
-  background: rgba(0, 0, 0, 0.5); /* last # is percent opacity */
+.call-to-action {
+  background-color: #bf8f00c9;
   color: white;
-  transform: translateY(-2.25em);
-  margin-bottom: -2em;
+  padding: 5px 8px;
+  margin: 8px 8px;
+  font-size: 22px;
+  border-radius: 2px; /* Rounded corners */
+  font-family: var(--title-font-family);
+}
+
+.call-to-action:hover {
+  background-color: #bf8f00;
+}
+
+.featured-book {
+  display: flex;
+  justify-content: space-evenly; /* Center the rectangle horizontally */
+  background-color: #d3d3d3; /* Light gray background for the section */
+  padding: 24px;
+  margin: 12px 48px 12px;
+}
+
+.book-container {
+  text-align: center;
+  width: 100%; /* Ensure it is responsive */
+}
+
+.book-description {
+  text-align: center;
+}
+
+.book-description h3{
+  font-size: 24px;
+}
+
+.book-description p{
+  font-size: 18px;
+  padding: 12px;
 }

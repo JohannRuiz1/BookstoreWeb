@@ -11,7 +11,7 @@
   custom properties are always defined in :root (not in html).
 */
 :root {
-  --title-font-family: "Proza Libre", serif;
+  --title-font-family: "Kurale", serif;
   --default-font-family: "Roboto", sans-serif;
   /* 
     16px is the default font size set by browswers in the html tag.
@@ -20,7 +20,7 @@
     If you want a differnt default size for your site, change it in the body tag.
     For example, if you want 20px, then set the size to 20/16 = 1.25rem.
   */
-  --defatul-font-size: 1.25rem;
+  --default-font-size: 20px;
   --default-text-color: #111;
   --neutral-color: #4e4e4e;
 
@@ -122,7 +122,7 @@ textarea {
   to the first elem only when it is followed by another elem.
 */
 .flow-content > * + * {
-  margin-top: 1rem;
+  margin-top: 16px;
 }
 
 /*
@@ -130,7 +130,7 @@ textarea {
   will ensure a nice padding around the contents.
 */
 .container {
-  padding: 1rem;
+  padding: 16px;
 }
 
 /*
@@ -152,7 +152,7 @@ body {
   font-family: var(--default-font-family);
   font-size: var(--default-font-size);
   margin: 0 auto;
-  max-width: 70rem;
+  max-width: 1120px;
 }
 
 /* BUTTONS */
@@ -170,7 +170,7 @@ body {
   background: var(--primary-color);
   color: white;
   text-decoration: none;
-  padding: 0.5em 1em;
+  padding: 8px 16px;
   cursor: pointer;
 }
 

@@ -1,16 +1,16 @@
 .header-dropdown {
   position: relative;
+  padding: 0px 0px 0px 48px;
 }
 
-.categories-button {
-  background-color: var(--primary-color-dark);
-  margin-top: 0.25em;
-}
 
 .header-dropdown ul {
   background-color: white;
   color: black;
   display: none;
+  top: 100%; /* Position below the dropdown */
+  border: 1px solid #ccc; /* Optional: Add a border to the dropdown */
+  font-family: var(--title-font-family);
 }
 
 .header-dropdown li {
