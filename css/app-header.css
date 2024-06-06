@@ -21,7 +21,7 @@ a.no-underline, a.no-underline:hover, a.no-underline:focus  {
 
 .bookstore-title {
   font-family: var(--title-font-family);
-  font-size: 30px;
+  font-size: 36px;
   color: black;
 }
 
@@ -73,7 +73,7 @@ a.no-underline, a.no-underline:hover, a.no-underline:focus  {
 
 
 .login-button {
-  background-color: #4169e1c7;
+  background-color: #4169e1;
   color: white;
   padding: 5px 8px;
   font-size: 16px;
@@ -82,12 +82,8 @@ a.no-underline, a.no-underline:hover, a.no-underline:focus  {
 }
 
 .login-button:hover {
-  background-color: #4169e1;
+  background-color: #3e62cf;
 }
-.colors {
-  background-color: #B76E79;
-}
-
 
 @media (max-width: 600px) {
   header {

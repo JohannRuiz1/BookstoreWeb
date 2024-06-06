@@ -27,8 +27,8 @@
   --primary-color: dodgerblue;
   --primary-color-dark: darkblue;
   --primary-background-color: whitesmoke;
-  --secondary-background-color: burlywood;
-  --card-background-color: navajowhite;
+  --secondary-background-color: rgba(155, 142, 142, 0.692);
+  --card-background-color: rgb(255, 173, 230);
 }
 
 /* RESET */
@@ -86,8 +86,7 @@ ul {
 */
 img {
   max-width: 100%;
-  height: auto;
-  display: block;
+  /* display: block; */
 }
 
 /*
@@ -131,6 +130,7 @@ textarea {
 */
 .container {
   padding: 16px;
+  width: 100%;
 }
 
 /*
@@ -153,6 +153,16 @@ body {
   font-size: var(--default-font-size);
   margin: 0 auto;
   max-width: 1120px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header.container, footer.container {
+  width: 100%;
 }
 
 /* BUTTONS */
@@ -198,3 +208,4 @@ a:hover,
 a:active {
   color: var(--primary-color-dark);
 }
+
