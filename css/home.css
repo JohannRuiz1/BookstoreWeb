@@ -9,6 +9,7 @@
   text-align: center;
   padding: 32px 64px 0px;
   font-size: 24px;
+  
 }
 
 .call-to-action {
@@ -19,10 +20,12 @@
   font-size: 22px;
   border-radius: 2px; /* Rounded corners */
   font-family: var(--title-font-family);
+  
 }
 
 .call-to-action:hover {
   background-color: #a87e00;
+  cursor: pointer;
 }
 
 .featured-book {
@@ -80,6 +83,7 @@
 
 .add-to-cart:hover, .shop-category:hover {
   background-color: #a7626d;
+  cursor: pointer;
 }
 
 .button-icon {

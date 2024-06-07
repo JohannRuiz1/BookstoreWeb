@@ -17,6 +17,7 @@ footer {
 .link-title{
   font-size: 16px;
   color: white;
+  font-family: var(--title-font-family);
 }
 
 .contact-logo {
@@ -33,6 +34,7 @@ footer {
 .footer-title {
   font-size: 16px;
   color: white;
+  font-family: var(--title-font-family);
 }
 
 .footer-logo {
@@ -50,6 +52,8 @@ footer {
 .copyright-title {
   font-size: 12px;
   color: white;
+  font-family: var(--title-font-family);
+
 }
 
 .copyright-logo {
