@@ -1,0 +1,35 @@
+.header-dropdown {
+  position: relative;
+  padding: 0px 0px 0px 48px;
+}
+
+
+.header-dropdown ul {
+  background-color: white;
+  color: black;
+  display: none;
+  top: 100%; /* Position below the dropdown */
+  border: 1px solid #ccc; /* Optional: Add a border to the dropdown */
+  font-family: var(--title-font-family);
+}
+
+.header-dropdown li {
+  padding: 0.25em 0.5em;
+}
+
+.header-dropdown a {
+  color: black;
+  text-decoration: none;
+}
+
+.header-dropdown li:hover {
+  background: lightgray;
+}
+
+.header-dropdown:hover ul {
+  display: block;
+  position: absolute;
+  min-width: 8em;
+  z-index: 1;
+  cursor: pointer;
+}

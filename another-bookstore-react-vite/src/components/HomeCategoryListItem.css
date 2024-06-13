@@ -1,0 +1,7 @@
+.category-box > .overlay {
+  margin-bottom: -2em;
+  padding: 0.5em 0;
+  background: rgba(0, 0, 0, 0.5); /* last # is percent opacity */
+  color: white;
+  transform: translateY(-2.25em);
+}

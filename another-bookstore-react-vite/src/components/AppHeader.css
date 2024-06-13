@@ -30,27 +30,6 @@ a.no-underline, a.no-underline:hover, a.no-underline:focus  {
   color: black;
 }
 
-.category {
-  display: flex;
-  align-items: center;
-  padding: 0px 0px 0px 0px;
-  height: 32px;
-  gap: 8px; /* Adjust the gap as needed */
-}
-
-.category-title {
-  font-family: var(--title-font-family);
-  font-size: 22px;
-  color: black;
-  padding: 0px 0px 0px 0px;
-  gap: 8px; /* Adjust the gap as needed */
-}
-
-.category-icon {
-  font-size: 10px;
-  color: black;
-  padding: 0px 0px 0px 0px;
-}
 
 .search-bar {
   display: flex; /* Ensure the search bar is a flex container */

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Bookstore</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="The homepage for My Bookstore" />
+
+    <!-- Import font-awesome icons -->
+    <link
+      href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+      rel="stylesheet"
+    />
+
+    <!-- order of CSS files is important (this is the "Cascade" part of CSS) -->
+
+    <!-- global.css contains resets, custom properties, and utility classes -->
+    <link rel="stylesheet" href="css/global.css" />
+
+    <!-- start from the top-level component and work your way down -->
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/app-header.css" />
+    <link rel="stylesheet" href="css/header-dropdown.css" />
+    <link rel="stylesheet" href="css/app-footer.css" />
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+
+  <body>
+    <main>
+      <header class="container">
+        <section class="bookstore-logo">
+          <a href="index.html">
+            <img
+              src="images/site/bookstore-logo.png"
+              alt="Another Bookstore Logo"
+              width="150px"
+              height="auto"
+            />
+          </a>
+        </section>
+        <section class="title-and-search-bar">
+          <h1 class="text-logo">Another Bookstore</h1>
+          <form action="category.html">
+            <input type="text" class="search-bar" /><br />
+            <input type="submit" class="button search-button" value="Search" />
+          </form>
+        </section>
+        <section class="header-dropdown-and-cart">
+          <button class="button">cart (0)</button>
+          <button class="button">login</button>
+          <div class="header-dropdown">
+            <button class="button categories-button">Categories</button>
+            <ul>
+              <li><a href="category.html?category=Fiction">Fiction</a></li>
+              <li><a href="category.html?category=Fantasy">Fantasy</a></li>
+              <li><a href="category.html?category=Mystery">Mystery</a></li>
+              <li><a href="category.html?category=Romance">Romance</a></li>
+              <li><a href="category.html?category=Science">Science</a></li>
+              <li><a href="category.html?category=Classics">Classics</a></li>
+            </ul>
+          </div>
+        </section>
+      </header>
+      <div class="home-page">
+        <section class="welcome-text flow-content container dark-background">
+          <h2>Welcome to Another Bookstore</h2>
+          <p>
+            Another Bookstore is a client-side application written in HTML and
+            CSS.
+          </p>
+          <p>
+            It includes a home page and a category page. Both pages have the
+            same header and footer.
+          </p>
+          <p>
+            You can navigate to the category page by choosing any category from
+            the dropdown menu in the header. You can navigate to the home page
+            by clicking on the logo in the header.
+          </p>
+          <p>Take some time and explore the code.</p>
+        </section>
+        <section class="category-images container">
+          <div class="category-image-items">
+            <a>
+              <img
+                src="images/categories/classics.jpg"
+                alt="Classics category"
+                width="180px"
+                height="180px"
+              />
+              <div>Classics</div>
+            </a>
+            <a>
+              <img
+                src="images/categories/fantasy.jpg"
+                alt="Fantasy category"
+                width="180px"
+                height="180px"
+              />
+              <div>Fantasy</div>
+            </a>
+            <a>
+              <img
+                src="images/categories/mystery.jpg"
+                alt="Mystery category"
+                width="180px"
+                height="180px"
+              />
+              <div>Mystery</div>
+            </a>
+            <a>
+              <img
+                src="images/categories/romance.jpg"
+                alt="Romance category"
+                width="180px"
+                height="180px"
+              />
+              <div>Romance</div>
+            </a>
+          </div>
+        </section>
+      </div>
+      <footer class="container">
+        <section class="links">
+          <a href="index.html">about</a>
+          <a href="index.html">contact</a>
+          <a href="index.html">directions</a>
+        </section>
+        <section class="social-media-icons">
+          <a class="button">Facebook</a>
+          <a class="button">Twitter</a>
+        </section>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+.book-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* grid-template-columns: repeat(auto-fit, minmax(12em, 1fr)); */
+  gap: 1em;
+}

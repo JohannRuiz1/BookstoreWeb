@@ -1,0 +1,93 @@
+header {
+  background: var(--secondary-background-color);
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+  align-items: center;
+  max-height: 80px;
+  justify-content: space-between;
+}
+
+a.no-underline, a.no-underline:hover, a.no-underline:focus  {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.bookstore {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* Adjust the gap as needed */
+}
+
+.bookstore-title {
+  font-family: var(--title-font-family);
+  font-size: 36px;
+  color: black;
+}
+
+.bookstore-logo {
+  font-size: 3em; 
+  color: black;
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 0px 0px;
+  height: 32px;
+  gap: 8px; /* Adjust the gap as needed */
+}
+
+.category-title {
+  font-family: var(--title-font-family);
+  font-size: 22px;
+  color: black;
+  padding: 0px 0px 0px 0px;
+  gap: 8px; /* Adjust the gap as needed */
+}
+
+.category-icon {
+  font-size: 10px;
+  color: black;
+  padding: 0px 0px 0px 0px;
+}
+
+.search-bar {
+  display: flex; /* Ensure the search bar is a flex container */
+  align-items: center;
+  padding: 0px 0px 0px 40px;
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+}
+
+.search-text {
+  font-family: var(--title-font-family);
+
+}
+
+.search-button {
+  align-items: center;
+  gap: 0px;
+}
+
+
+
+.login-button {
+  background-color: #4169e1;
+  color: white;
+  padding: 5px 8px;
+  font-size: 16px;
+  border-radius: 2px; /* Rounded corners */
+  font-family: var(--title-font-family);
+}
+
+.login-button:hover {
+  background-color: #3e62cf;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+}

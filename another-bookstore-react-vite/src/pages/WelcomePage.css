@@ -8,8 +8,15 @@
 .welcome-text {
   text-align: center;
   padding: 32px 64px 0px;
-  font-size: 24px;
-  
+  font-size: 24px; 
+}
+
+.featured-book {
+  display: flex;
+  justify-content: space-evenly; /* Center the rectangle horizontally */
+  background-color: #d3d3d3; /* Light gray background for the section */
+  padding: 24px;
+  margin: 24px 48px 24px;
 }
 
 .call-to-action {

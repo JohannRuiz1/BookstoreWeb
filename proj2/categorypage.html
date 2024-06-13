@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Scriptoria</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="The homepage for Scriptoria" />
+
+
+        <!-- Import font-awesome icons-->
+        <script src="https://kit.fontawesome.com/5cd053d5f1.js" crossorigin="anonymous"></script>
+
+        <!-- CSS files-->
+           <!-- global.css contains resets, custom properties, and utility classes -->
+        <link rel="stylesheet" href="css/global.css" />
+        <link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Kurale">
+        <link rel="stylesheet" href="css/app-header.css" />
+        <link rel="stylesheet" href="css/header-dropdown.css" />
+        <link rel="stylesheet" href="css/home.css" />
+        <link rel="stylesheet" href="css/category.css" />
+
+        <link rel="stylesheet" href="css/app-footer.css" />
+    </head>
+
+    <body>
+        <main>
+            <header class="container">
+                <a href="homepage.html" class="no-underline">
+                    <div class="bookstore">
+                        <h3 class="bookstore-title">Scriptoria</h3>          
+                        <span class="bookstore-logo">
+                            <i class="fa-brands fa-fort-awesome"></i>
+                        </span>
+                    </div>
+                </a>
+                <div class="header-dropdown">
+                    <div class="category">
+                        <h4 class="category-title">Categories</h4>
+                        <span class="category-icon">
+                            <i class="fa-solid fa-angle-down"></i>
+                        </span>
+                        <ul>
+                            <li><a href="categorypage.html?category=Fiction">Fiction</a></li>
+                            <li><a href="categorypage.html?category=Fantasy">Fantasy</a></li>
+                            <li><a href="categorypage.html?category=Mystery">Mystery</a></li>
+                            <li><a href="categorypage.html?category=Romance">Romance</a></li>
+                            <li><a href="categorypage.html?category=Science">Science</a></li>
+                            <li><a href="categorypage.html?category=Classics">Classics</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="search-bar">
+                    <form action="categorypage.html" class="search-form">
+                        <input class="search-text" type="text" placeholder="Search for books!"/>
+                        <button class="icon-button">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button> 
+                    </form>
+                </div>
+                <div class="shopping-cart">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    2
+                </div>
+                <div>
+                    <button class="login-button">Login</button> 
+                </div>
+            </header>
+            <section class="category">
+                <div class="button-column">
+                    <a href="categorypage.html?category=Fiction"><button class="category-buttons" style="background-color: #755800;">Fiction</button></a>
+                    <a href="categorypage.html?category=Fantasy"><button class="category-buttons">Fantasy</button></a>
+                    <a href="categorypage.html?category=Mystery"><button class="category-buttons">Mystery</button></a>
+                    <a href="categorypage.html?category=Romance"><button class="category-buttons">Romance</button></a>
+                    <a href="categorypage.html?category=Science"><button class="category-buttons">Science</button></a>
+                    <a href="categorypage.html?category=Classics"><button class="category-buttons">Classics</button></a>
+                </div>
+                <div class="left-arrow">
+                    <i style="padding-left: 12px;" class="fa-solid fa-left-long"></i>
+                </div>
+                <div class="book-boxes">
+                    <div class="book-box">
+                      <div class="book-image-and-info">
+                        <div class="book-image">
+                          <img src="images/books/frankenstein.png" alt="Frankenstein by Mary Shelly"/>
+                        </div>
+                        <div class="book-info">
+                          <div class="book-title">Frankenstein</div>
+                          <div class="book-author">Mary Shelly</div>
+                          <div class="book-price">$10.99</div>
+                        </div>
+                        <div class="buy-now-button-container">
+                            <button class="buy-now-button">
+                              Add to Cart
+                            </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="book-box">
+                      <div class="book-image-and-info">
+                        <div class="book-image">
+                          <img src="images/books/theraven.png" alt="The Raven by Edgar Allen Poe" >
+                          <div class="read-now-button">Read Now</div>
+                        </div>
+                        <div class="book-info">
+                          <div class="book-title">The Raven</div>
+                  
+                          <div class="book-author">Edgar Allen Poe</div>
+                          <div class="book-price">$7.99</div>
+                        </div>
+                        <div class="buy-now-button-container">
+                            <button class="buy-now-button">
+                              Add to Cart
+                            </button>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="book-box">
+                      <div class="book-image-and-info">
+                        <div class="book-image">
+                          <img src="images/books/talesofspaceandtime.png" alt="Tales of Space and Time by H.G. Wells" >                  
+                        </div>
+                        <div class="book-info">
+                          <div class="book-title">Tales of Space and Time</div>
+                          <div class="book-author">H.G. Wells</div>
+                          <div class="book-price">$14.49</div>
+                        </div>
+                        <div class="buy-now-button-container">
+                            <button class="buy-now-button">
+                              Add to Cart
+                            </button>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="book-box">
+                        <div class="book-image-and-info">
+                          <div class="book-image">
+                            <img src="images/books/wutheringheights.png" alt="Wuthering Heights by Emily Bronte" >
+                            <div class="read-now-button">Read Now</div>                    
+                          </div>
+                          <div class="book-info">
+                            <div class="book-title">Wuthering Heights</div>
+                            <div class="book-author">Emily Bronte</div>
+                            <div class="book-price">$13.59</div>
+                          </div>
+                          <div class="buy-now-button-container">
+                            <button class="buy-now-button">
+                              Add to Cart
+                            </button>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="book-box">
+                        <div class="book-image-and-info">
+                          <div class="book-image">
+                            <img src="images/books/theadventuresofsherlockholmes.png" alt="The Adventures of Sherlock Holmes by Conan Doyle">
+                          </div>
+                          <div class="book-info">
+                            <div class="book-title">The Adventures of Sherlock Holmes</div>
+                            <div class="book-author">Conan Doyle</div>
+                            <div class="book-price">$12.99</div>
+                          </div>
+                          <div class="buy-now-button-container">
+                            <button class="buy-now-button">
+                              Add to Cart
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="book-box">
+                        <div class="book-image-and-info">
+                          <div class="book-image">
+                            <img src="images/books/thehauntedhouse.png" alt="The Haunted House by Charles Dickens">
+                          </div>
+                          <div class="book-info">
+                            <div class="book-title">The Haunted House</div>
+                            <div class="book-author">Charles Dickens</div>
+                            <div class="book-price">$16.99</div>
+                          </div>
+                          <div class="buy-now-button-container">
+                            <button class="buy-now-button">
+                              Add to Cart
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="book-box">
+                        <div class="book-image-and-info">
+                          <div class="book-image">
+                            <img src="images/books/emma.png" alt="Emma by Jane Austen">
+                            <div class="read-now-button">Read Now</div>                    
+                          </div>
+                          <div class="book-info">
+                            <div class="book-title">Emma</div>
+                            <div class="book-author">Jane Austen</div>
+                            <div class="book-price">$10.99</div>
+                          </div>
+                          <div class="buy-now-button-container">
+                            <button class="buy-now-button">
+                              Add to Cart
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="book-box">
+                        <div class="book-image-and-info">
+                          <div class="book-image">
+                            <img src="images/books/thegreatgatsby.png" alt="The Great Gatsby by F. Scott Fitzgerald">
+                          </div>
+                          <div class="book-info">
+                            <div class="book-title">The Great Gatsby</div>
+                            <div class="book-author">F. Scott Fitzgerald</div>
+                            <div class="book-price">$11.99</div>
+                          </div>
+                          <div class="buy-now-button-container">
+                            <button class="buy-now-button">
+                              Add to Cart
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="left-arrow">
+                    <i class="fa-solid fa-right-long"></i>
+                </div>
+            </section>
+            <footer class="container">
+                <div class="links">
+                    <h6 class="link-title">Contact Us</h6>          
+                    <span class="contact-logo">
+                        <a href="homepage.html" style="color: white; text-decoration: none; background-color: transparent;">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                    </span>
+                    <h6 class="link-title">Follow Us</h6>          
+                    <span class="contact-logo">
+                        <a href="homepage.html" style="color: white; text-decoration: none; background-color: transparent;">
+                            <i class="fa-brands fa-facebook"></i>                        
+                        </a>
+                        <a href="homepage.html" style="color: white; text-decoration: none; background-color: transparent;">
+                            <i class="fa-brands fa-square-twitter"></i>
+                        </a>
+                    </span>
+                    <h6 class="link-title">Find Us</h6>          
+                    <span class="contact-logo">
+                        <a href="homepage.html" style="color: white; text-decoration: none; background-color: transparent;">
+                            <i class="fa-solid fa-map"></i>
+                        </a>
+                    </span>
+                </div>
+                <div class="footer-bookstore">
+                    <h3 class="footer-title">Scriptoria</h3>          
+                    <span class="footer-logo">
+                        <i class="fa-brands fa-fort-awesome"></i>
+                    </span>
+                </div>
+                
+                <div class="copyright">
+                    <h3 class="copyright-title">2023-2024</h3>          
+                    <span class="copyright-logo">
+                        <i class="fa-regular fa-copyright"></i>
+                    </span>
+                    <h3 class="copyright-title">www.scriptoria.com</h3>          
+                </div> 
+            </footer>
+        </main>
+    </body>
+</html>

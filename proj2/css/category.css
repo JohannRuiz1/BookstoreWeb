@@ -1,0 +1,124 @@
+.category{
+  display: flex;
+  flex: 1; /* Take up the remaining space between header and footer */
+}
+
+.button-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 32px;
+  width: 265px; /* Adjust width as needed */
+  background-color: #d3d3d3; /* Light gray background for the section */
+}
+
+.category-buttons {
+  background-color: #bf8f00;
+  margin: 20px 0px;
+  width: 200px;
+  height: 50px; 
+  padding: 0px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 28px;
+  cursor: pointer;
+  font-family: var(--title-font-family);
+}
+
+.category-buttons:hover {
+  background-color: #755800;
+}
+
+.book-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* grid-template-columns: repeat(auto-fit, minmax(12em, 1fr)); */
+  gap: 1em;
+}
+
+.book-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 8em;
+  padding: 1em;
+}
+
+.buy-now-button-container {
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  margin-top: auto; /* Push the button to the bottom */
+}
+
+.book-image-and-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  flex-grow: 1; /* Ensure the content takes up the remaining space */
+
+}
+
+.book-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden; /* Ensures content doesn't overflow */
+}
+
+.book-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container */
+}
+
+.read-now-button {
+  background-color: #0008;
+  color: white;
+  transform: translateY(-1.6em);
+  margin-bottom: -1.6em;
+  text-align: center;
+  padding: 0.1em;
+}
+
+.read-now-button:hover,
+.buy-now-button:hover {
+  cursor: pointer;
+}
+
+.book-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 12px;
+  align-items: center;
+  text-align: center;
+}
+
+.book-title {
+  font-weight: bold;
+  font-size: 14px;
+  font-family: var(--title-font-family);
+
+}
+
+.book-price {
+  font-style: italic;
+}
+
+.buy-now-button {
+  background-color: #B76E79;
+  color: white;
+  width: 90px;
+  height: 30px; 
+  padding: 0px;
+  font-size: 12px;
+  align-items: center;
+  margin: 0 auto; /* Center the button horizontally */ 
+  font-family: var(--default-font-family);
+}
+
+.buy-now-button:hover {
+  background-color: #a7626d;
+}
