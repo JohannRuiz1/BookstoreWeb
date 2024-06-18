@@ -2,7 +2,7 @@
   "categories": [
     {
       "categoryId": 1001,
-      "name": "Fiction"
+      "name": "Classics"
     },
     {
       "categoryId": 1002,
@@ -19,131 +19,135 @@
     {
       "categoryId": 1005,
       "name": "Science"
-    },
-    {
-      "categoryId": 1006,
-      "name": "Classics"
     }
   ],
   "books": [
     {
-      "bookId": 1001,
-      "title": "Little Dorrit",
-      "author": "Charles Dickens",
-      "price": 599,
+      "bookId": 1000,
+      "title": "Watership Down",
+      "author": "Richard Adams",
+      "price": 899,
       "isPublic": true,
-      "categoryId": 1001
+      "categoryId": 1002
+    },
+    {
+      "bookId": 1001,
+      "title": "Tales of Space and Time",
+      "author": "H.G. Wells",
+      "price": 1349,
+      "isPublic": true,
+      "categoryId": 1002
     },
     {
       "bookId": 1002,
-      "title": "Little Dorrit",
-      "author": "Charles Dickens",
-      "price": 599,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "price": 1599,
       "isPublic": true,
-      "categoryId": 1001
+      "categoryId": 1002
     },
     {
       "bookId": 1003,
-      "title": "Little Dorrit",
-      "author": "Charles Dickens",
-      "price": 599,
+      "title": "The Last Unicorn",
+      "author": "Peter S. Beagle",
+      "price": 1299,
       "isPublic": true,
-      "categoryId": 1001
+      "categoryId": 1002
     },
     {
       "bookId": 1004,
-      "title": "Little Dorrit",
-      "author": "Charles Dickens",
-      "price": 599,
-      "isPublic": true,
-      "categoryId": 1001
+      "title": "The Chronicles of Narnia",
+      "author": "C.S. Lewis",
+      "price": 1699,
+      "isPublic": false,
+      "categoryId": 1002
     },
     {
       "bookId": 1005,
-      "title": "Little Dorrit",
-      "author": "Charles Dickens",
-      "price": 599,
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": "J.K. Rowling",
+      "price": 1499,
       "isPublic": true,
-      "categoryId": 1001
+      "categoryId": 1002
     },
     {
       "bookId": 1006,
-      "title": "Watership Down",
-      "author": "Richard Adams",
-      "price": 799,
+      "title": "The Name of the Wind",
+      "author": "Patrick Rothfuss",
+      "price": 1799,
       "isPublic": true,
       "categoryId": 1002
     },
     {
       "bookId": 1007,
-      "title": "Tales of Space and Time",
-      "author": "H.G. Wells",
-      "price": 1449,
+      "title": "Mistborn: The Final Empire",
+      "author": "Brandon Sanderson",
+      "price": 1599,
       "isPublic": true,
       "categoryId": 1002
     },
     {
       "bookId": 1008,
-      "title": "Watership Down",
-      "author": "Richard Adams",
-      "price": 799,
+      "title": "The Woman in White",
+      "author": "Wilke Collins",
+      "price": 899,
       "isPublic": true,
-      "categoryId": 1002
+      "categoryId": 1003
     },
     {
       "bookId": 1009,
-      "title": "Watership Down",
-      "author": "Richard Adams",
-      "price": 799,
-      "isPublic": true,
-      "categoryId": 1002
+      "title": "The Adventures of Sherlock Holmes",
+      "author": "Conan Doyle",
+      "price": 1399,
+      "isPublic": false,
+      "categoryId": 1003
     },
     {
       "bookId": 1010,
-      "title": "Watership Down",
-      "author": "Richard Adams",
-      "price": 799,
-      "isPublic": true,
-      "categoryId": 1002
+      "title": "The Haunted House",
+      "author": "Charles Dickens",
+      "price": 1799,
+      "isPublic": false,
+      "categoryId": 1003
     },
     {
       "bookId": 1011,
-      "title": "The Woman in White",
-      "author": "Wilke Collins",
-      "price": 799,
+      "title": "The Hound of the Baskervilles",
+      "author": "Arthur Conan Doyle",
+      "price": 1599,
       "isPublic": true,
       "categoryId": 1003
     },
     {
       "bookId": 1012,
-      "title": "The Adventures of Sherlock Holmes",
-      "author": "Conan Doyle",
+      "title": "The Moonstone",
+      "author": "Wilkie Collins",
+      "price": 1299,
+      "isPublic": true,
+      "categoryId": 1003
+    },
+    {
+      "bookId": 1013,
+      "title": "Murder on the Orient Express",
+      "author": "Agatha Christie",
+      "price": 1499,
+      "isPublic": true,
+      "categoryId": 1003
+    },
+    {
+      "bookId": 1014,
+      "title": "And Then There Were None",
+      "author": "Agatha Christie",
       "price": 1299,
       "isPublic": false,
       "categoryId": 1003
     },
     {
-      "bookId": 1013,
-      "title": "The Haunted House",
+      "bookId": 1015,
+      "title": "The Mystery of Edwin Drood",
       "author": "Charles Dickens",
       "price": 1699,
       "isPublic": false,
-      "categoryId": 1003
-    },
-    {
-      "bookId": 1014,
-      "title": "The Woman in White",
-      "author": "Wilke Collins",
-      "price": 799,
-      "isPublic": true,
-      "categoryId": 1003
-    },
-    {
-      "bookId": 1015,
-      "title": "The Woman in White",
-      "author": "Wilke Collins",
-      "price": 799,
-      "isPublic": true,
       "categoryId": 1003
     },
     {
@@ -156,259 +160,187 @@
     },
     {
       "bookId": 1017,
-      "title": "Pride and Prejudice",
-      "author": "Jane Austin",
-      "price": 699,
+      "title": "Sense and Sensibility",
+      "author": "Jane Austen",
+      "price": 849,
       "isPublic": true,
       "categoryId": 1004
     },
     {
       "bookId": 1018,
-      "title": "Pride and Prejudice",
-      "author": "Jane Austin",
-      "price": 699,
+      "title": "Emma",
+      "author": "Jane Austen",
+      "price": 799,
       "isPublic": true,
       "categoryId": 1004
     },
     {
       "bookId": 1019,
-      "title": "Pride and Prejudice",
-      "author": "Jane Austin",
-      "price": 699,
+      "title": "Persuasion",
+      "author": "Jane Austen",
+      "price": 899,
       "isPublic": true,
       "categoryId": 1004
     },
     {
       "bookId": 1020,
-      "title": "Pride and Prejudice",
-      "author": "Jane Austin",
-      "price": 699,
+      "title": "Northanger Abbey",
+      "author": "Jane Austen",
+      "price": 749,
       "isPublic": true,
       "categoryId": 1004
     },
     {
       "bookId": 1021,
-      "title": "Dune",
-      "author": "Frank Herbert",
-      "price": 699,
+      "title": "Wuthering Heights",
+      "author": "Emily Bronte",
+      "price": 899,
       "isPublic": true,
-      "categoryId": 1005
+      "categoryId": 1004
     },
     {
       "bookId": 1022,
-      "title": "Frankenstein",
-      "author": "Mary Shelly",
-      "price": 1099,
-      "isPublic": false,
-      "categoryId": 1005
+      "title": "Jane Eyre",
+      "author": "Charlotte Bronte",
+      "price": 799,
+      "isPublic": true,
+      "categoryId": 1004
     },
     {
       "bookId": 1023,
-      "title": "Dune",
-      "author": "Frank Herbert",
-      "price": 699,
+      "title": "A Room with a View",
+      "author": "E.M. Forster",
+      "price": 849,
       "isPublic": true,
-      "categoryId": 1005
+      "categoryId": 1004
     },
     {
       "bookId": 1024,
-      "title": "Dune",
-      "author": "Frank Herbert",
-      "price": 699,
+      "title": "The Time Machine",
+      "author": "H.G. Wells",
+      "price": 899,
       "isPublic": true,
       "categoryId": 1005
     },
     {
-      "bookId": 1025,
-      "title": "Dune",
-      "author": "Frank Herbert",
-      "price": 699,
-      "isPublic": true,
-      "categoryId": 1005
+        "bookId": 1025,
+        "title": "Neuromancer",
+        "author": "William Gibson",
+        "price": 1399,
+        "isPublic": true,
+        "categoryId": 1005
     },
     {
-      "bookId": 1026,
-      "title": "The Raven",
-      "author": "Edgar Allen Poe",
-      "price": 799,
-      "isPublic": true,
-      "categoryId": 1006
+        "bookId": 1026,
+        "title": "Jurassic Park",
+        "author": "Michael Crichton",
+        "price": 1599,
+        "isPublic": true,
+        "categoryId": 1005
     },
     {
-      "bookId": 1027,
-      "title": "Wuthering Heights",
-      "author": "Emily Bronte",
-      "price": 1359,
-      "isPublic": true,
-      "categoryId": 1006
+        "bookId": 1027,
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "price": 1199,
+        "isPublic": true,
+        "categoryId": 1005
     },
     {
-      "bookId": 1028,
-      "title": "Emma",
-      "author": "Jane Austen",
-      "price": 1099,
-      "isPublic": false,
-      "categoryId": 1006
+        "bookId": 1028,
+        "title": "Foundation",
+        "author": "Isaac Asimov",
+        "price": 1299,
+        "isPublic": true,
+        "categoryId": 1005
     },
     {
-      "bookId": 1029,
-      "title": "The Great Gatsby",
-      "author": "F. Scott Fitzgerald",
-      "price": 1199,
-      "isPublic": false,
-      "categoryId": 1006
+        "bookId": 1029,
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "price": 1499,
+        "isPublic": true,
+        "categoryId": 1005
     },
     {
-      "bookId": 1030,
-      "title": "Tales of Space and Time",
-      "author": "H.G. Wells",
-      "price": 1449,
-      "isPublic": true,
-      "categoryId": 1002
+        "bookId": 1030,
+        "title": "The Martian",
+        "author": "Andy Weir",
+        "price": 1099,
+        "isPublic": true,
+        "categoryId": 1005
     },
     {
-      "bookId": 1031,
-      "title": "Tales of Space and Time",
-      "author": "H.G. Wells",
-      "price": 1449,
-      "isPublic": true,
-      "categoryId": 1002
+        "bookId": 1031,
+        "title": "The Andromeda Strain",
+        "author": "Michael Crichton",
+        "price": 1499,
+        "isPublic": true,
+        "categoryId": 1005
     },
     {
       "bookId": 1032,
-      "title": "Tales of Space and Time",
-      "author": "H.G. Wells",
-      "price": 1449,
-      "isPublic": true,
-      "categoryId": 1002
-    },
-    {
-      "bookId": 1033,
-      "title": "The Adventures of Sherlock Holmes",
-      "author": "Conan Doyle",
-      "price": 1299,
-      "isPublic": false,
-      "categoryId": 1003
-    },
-    {
-      "bookId": 1034,
-      "title": "The Haunted House",
-      "author": "Charles Dickens",
-      "price": 1699,
-      "isPublic": false,
-      "categoryId": 1003
-    },
-    {
-      "bookId": 1035,
-      "title": "The Adventures of Sherlock Holmes",
-      "author": "Conan Doyle",
-      "price": 1299,
-      "isPublic": false,
-      "categoryId": 1003
-    },
-    {
-      "bookId": 1036,
-      "title": "Pride and Prejudice",
-      "author": "Jane Austin",
-      "price": 699,
-      "isPublic": true,
-      "categoryId": 1004
-    },
-    {
-      "bookId": 1037,
-      "title": "Pride and Prejudice",
-      "author": "Jane Austin",
-      "price": 699,
-      "isPublic": true,
-      "categoryId": 1004
-    },
-    {
-      "bookId": 1038,
-      "title": "Pride and Prejudice",
-      "author": "Jane Austin",
-      "price": 699,
-      "isPublic": true,
-      "categoryId": 1004
-    },
-    {
-      "bookId": 1039,
-      "title": "The Raven",
-      "author": "Edgar Allen Poe",
-      "price": 799,
-      "isPublic": true,
-      "categoryId": 1006
-    },
-    {
-      "bookId": 1040,
-      "title": "Wuthering Heights",
-      "author": "Emily Bronte",
-      "price": 1359,
-      "isPublic": true,
-      "categoryId": 1006
-    },
-    {
-      "bookId": 1041,
-      "title": "Emma",
-      "author": "Jane Austen",
-      "price": 1099,
-      "isPublic": false,
-      "categoryId": 1006
-    },
-    {
-      "bookId": 1042,
-      "title": "The Great Gatsby",
-      "author": "F. Scott Fitzgerald",
-      "price": 1199,
-      "isPublic": false,
-      "categoryId": 1006
-    },
-    {
-      "bookId": 1043,
-      "title": "Little Dorrit",
-      "author": "Charles Dickens",
-      "price": 599,
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "price": 999,
       "isPublic": true,
       "categoryId": 1001
     },
     {
-      "bookId": 1044,
-      "title": "Little Dorrit",
-      "author": "Charles Dickens",
-      "price": 599,
-      "isPublic": true,
-      "categoryId": 1001
+        "bookId": 1033,
+        "title": "The Raven",
+        "author": "Edgar Allan Poe",
+        "price": 799,
+        "isPublic": true,
+        "categoryId": 1001
     },
     {
-      "bookId": 1045,
-      "title": "Little Dorrit",
-      "author": "Charles Dickens",
-      "price": 599,
-      "isPublic": true,
-      "categoryId": 1001
+        "bookId": 1034,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "price": 1199,
+        "isPublic": false,
+        "categoryId": 1001
     },
     {
-      "bookId": 1046,
-      "title": "Frankenstein",
-      "author": "Mary Shelly",
-      "price": 1099,
-      "isPublic": false,
-      "categoryId": 1005
+        "bookId": 1035,
+        "title": "Les Misérables",
+        "author": "Victor Hugo",
+        "price": 1399,
+        "isPublic": true,
+        "categoryId": 1001
     },
     {
-      "bookId": 1047,
-      "title": "Frankenstein",
-      "author": "Mary Shelly",
-      "price": 1099,
-      "isPublic": false,
-      "categoryId": 1005
+        "bookId": 1036,
+        "title": "Anna Karenina",
+        "author": "Leo Tolstoy",
+        "price": 1299,
+        "isPublic": true,
+        "categoryId": 1001
     },
     {
-      "bookId": 1048,
-      "title": "Frankenstein",
-      "author": "Mary Shelly",
-      "price": 1099,
-      "isPublic": false,
-      "categoryId": 1005
+        "bookId": 1037,
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "price": 1499,
+        "isPublic": true,
+        "categoryId": 1001
+    },
+    {
+        "bookId": 1038,
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "price": 1099,
+        "isPublic": true,
+        "categoryId": 1001
+    },
+    {
+        "bookId": 1039,
+        "title": "Lord of the Flies",
+        "author": "William Golding",
+        "price": 1299,
+        "isPublic": false,
+        "categoryId": 1001
     }
   ]
 }

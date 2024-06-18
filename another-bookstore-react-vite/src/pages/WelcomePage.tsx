@@ -6,7 +6,7 @@ export default function WelcomePage() {
   return (
     <div className="home-page">
       <h3 className="welcome-text"> Scriptoria was a place in the medieval times where all kinds of books were kept for the nobles; today, it provides the same services!</h3>
-      <NavLink to={`/category/Fiction`}><button className="call-to-action">SHOP BOOKS</button ></NavLink>
+      <NavLink to={`/category/Classics`}><button className="call-to-action">SHOP BOOKS</button ></NavLink>
       <section className="featured-book">
       <div className="left-arrow">
         <i className="fa-solid fa-left-long"></i>
