@@ -12,7 +12,7 @@ export default function WelcomePage() {
         <i className="fa-solid fa-left-long"></i>
         </div>
         <div className="book-container">
-          <h3>Featured Books</h3>
+          <h3 className="featured-book-title">Featured Books</h3>
           <img
                 src={`${bookImagePrefix}the-ladies-home-journal.gif`}
                 alt="The Ladies' Home Journal"
@@ -25,7 +25,7 @@ export default function WelcomePage() {
             <p> A timeless publication offering inspiring stories, practical advice, and cultural reflections that have empowered women for over a century. It captures the evolving roles of women through heartwarming narratives and insightful essays. This iconic magazine continues to connect generations with its diverse and uplifting content. (This content was AI generated).</p>
             <div className="featured-buttons">
                 <button className="add-to-cart"><i className="fa-solid fa-cart-plus button-icon"></i>Add to Cart</button>
-                <NavLink to={`/category/Fiction`}><button className="shop-category">Shop Category</button></NavLink>
+                <NavLink to={`/category/Classics`}><button className="shop-category">Shop Category</button></NavLink>
             </div>
         </div>
         <div className="left-arrow">

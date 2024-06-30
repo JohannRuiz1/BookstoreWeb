@@ -8,7 +8,7 @@
 
 .category-title {
   font-family: var(--title-font-family);
-  font-size: 22px;
+  font-size: 32px;
   color: black;
   padding: 0px 0px 0px 0px;
   gap: 8px; /* Adjust the gap as needed */
