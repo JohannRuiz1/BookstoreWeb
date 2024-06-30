@@ -1,0 +1,4 @@
+.category{
+  display: flex;
+  flex: 1; /* Take up the remaining space between header and footer */
+}
