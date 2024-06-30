@@ -1,7 +1,21 @@
+.book-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.book-main-title {
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  font-family: var(--title-font-family);
+  padding-bottom: 32px;
+}
+
 .book-boxes {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* grid-template-columns: repeat(auto-fit, minmax(12em, 1fr)); */
   gap: 1em;
 }
+

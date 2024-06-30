@@ -14,7 +14,7 @@ INSERT INTO `book` (title, author, description, price, rating, is_public, is_fea
 ('The Chronicles of Narnia', 'C.S. Lewis', '', 1699, 0, FALSE, FALSE, 1002),
 ('Harry Potter and the Philosopher\'s Stone', 'J.K. Rowling', '', 1499, 0, TRUE, FALSE, 1002),
 ('The Name of the Wind', 'Patrick Rothfuss', '', 1799, 0, TRUE, FALSE, 1002),
-('Mistborn: The Final Empire', 'Brandon Sanderson', '', 1599, 0, TRUE, FALSE, 1002),
+('Mistborn The Final Empire', 'Brandon Sanderson', '', 1599, 0, TRUE, FALSE, 1002),
 ('The Woman in White', 'Wilke Collins', '', 899, 0, TRUE, FALSE, 1003),
 ('The Adventures of Sherlock Holmes', 'Conan Doyle', '', 1399, 0, FALSE, FALSE, 1003),
 ('The Haunted House', 'Charles Dickens', '', 1799, 0, FALSE, FALSE, 1003),
