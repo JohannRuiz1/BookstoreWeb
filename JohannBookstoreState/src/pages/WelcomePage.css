@@ -1,0 +1,104 @@
+.home-page {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-text {
+  text-align: center;
+  padding: 24px 250px 0px;
+  margin: 0;
+  font-size: 32px; 
+}
+
+.featured-book {
+  display: flex;
+  justify-content: space-evenly; /* Center the rectangle horizontally */
+  background-color: #d3d3d3; /* Light gray background for the section */
+  padding: 24px;
+  margin: 24px 48px 24px;
+}
+
+.call-to-action {
+  background-color: #bf8f00;
+  color: white;
+  padding: 8px 8px;
+  margin: 8px 8px;
+  font-size: 28px;
+  border-radius: 2px; /* Rounded corners */
+  font-family: var(--title-font-family);
+  
+}
+
+.call-to-action:hover {
+  background-color: #a87e00;
+  cursor: pointer;
+}
+
+.featured-book {
+  display: flex;
+  justify-content: space-evenly; /* Center the rectangle horizontally */
+  background-color: #d3d3d3; /* Light gray background for the section */
+  padding: 64px 64px;
+  margin: 24px 264px 24px;
+}
+
+.left-arrow {
+  display: flex;
+  align-items: center;
+
+}
+
+.featured-book-title{
+  font-size: 32px;
+}
+
+.book-container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 100%; /* Ensure it is responsive */
+  flex-direction: column; /* Stack children vertically */
+  padding: 0px 12px 0px;
+}
+
+.book-description {
+  text-align: center;
+  flex-direction: column; /* Stack children vertically */
+
+}
+
+.book-description h3{
+  font-size: 32px;
+}
+
+.book-description p{
+  font-size: 20px;
+  padding: 12px 60px 0px;
+  line-height: 2;
+}
+
+.featured-buttons{
+  display: flex;
+  flex-direction: row; /* Stack children vertically */
+  justify-content: center;
+  margin: 36px 4px 0px;
+  gap: 24px;
+  font-size: 24px;
+}
+
+.add-to-cart, .shop-category{
+  background-color: #B76E79;
+  color: white;
+}
+
+.add-to-cart:hover, .shop-category:hover {
+  background-color: #a7626d;
+  cursor: pointer;
+}
+
+.button-icon {
+  margin-right: 8px; /* Space between icon and text */
+  font-size: 16px; /* Set the icon size */
+}

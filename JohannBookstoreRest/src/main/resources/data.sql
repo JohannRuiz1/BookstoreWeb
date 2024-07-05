@@ -42,7 +42,7 @@ INSERT INTO `book` (title, author, description, price, rating, is_public, is_fea
 ('Frankenstein', 'Mary Shelley', '', 999, 0, TRUE, FALSE, 1001),
 ('The Raven', 'Edgar Allan Poe', '', 799, 0, TRUE, FALSE, 1001),
 ('The Great Gatsby', 'F. Scott Fitzgerald', '', 1199, 0, FALSE, FALSE, 1001),
-('Les Misérables', 'Victor Hugo', '', 1399, 0, TRUE, FALSE, 1001),
+('Les Miserables', 'Victor Hugo', '', 1399, 0, TRUE, FALSE, 1001),
 ('Anna Karenina', 'Leo Tolstoy', '', 1299, 0, TRUE, FALSE, 1001),
 ('Crime and Punishment', 'Fyodor Dostoevsky', '', 1499, 0, TRUE, FALSE, 1001),
 ('The Picture of Dorian Gray', 'Oscar Wilde', '', 1099, 0, TRUE, FALSE, 1001),
