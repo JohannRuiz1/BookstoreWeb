@@ -1,0 +1,20 @@
+.cart-page {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: flex-start !important; 
+    align-items: center; /* Center items horizontally */
+  
+
+    /* Background or other styles */
+    background-color: #dbc3c3;
+    padding: 20px;
+    margin-bottom: 20px; /* Add space below the title */
+    margin-top: 20px; /* Add space above the title */
+
+  }
+  
+  .cart-title {
+    text-align: center;
+    margin-top: 20px; /* Add space above the title */
+    margin-bottom: 20px; /* Add space below the title */
+  }

@@ -1,0 +1,37 @@
+.category{
+  display: flex;
+  flex: 1; /* Take up the remaining space between header and footer */
+}
+
+.button-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 32px;
+  margin: 16px;
+  width: 265px; /* Adjust width as needed */
+  background-color: #d3d3d3; /* Light gray background for the section */
+}
+
+.category-buttons {
+  background-color: #bf8f00;
+  margin: 20px 0px;
+  width: 200px;
+  height: 50px; 
+  padding: 0px;
+  color: white;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  font-family: var(--title-font-family);
+}
+
+.category-buttons:hover {
+  background-color: #755800;
+}
+
+.active .category-buttons {
+  background-color: #755800; /* Change this to your desired active color */
+  color: white;
+}
