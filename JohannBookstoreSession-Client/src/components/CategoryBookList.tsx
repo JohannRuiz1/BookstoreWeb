@@ -1,15 +1,16 @@
 // import types
 import "./CategoryBookList.css";
-import CategoryBookListItem from "./CategoryBookLIstItem";
+import CategoryBookListItem from "./CategoryBookListItem";
 import axios from "axios";
 import { apiUrl } from "./../utils";
 import { useState, useEffect } from "react";
 import { useParams } from 'react-router-dom';
+import { BookItem } from "../types";
 
 
 export default function CategoryBookList() {
   const { categoryName } = useParams();
-  const [books, setBooks]  = useState([]);
+  const [books, setBooks]  = useState<BookItem[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
 
