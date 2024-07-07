@@ -17,6 +17,10 @@
   padding: 1em;
 }
 
+.heading-price {
+  margin-left: 235px; /* Adjust this value as needed */
+}
+
 .grid-table-row {
   display: contents;
   align-items: center;

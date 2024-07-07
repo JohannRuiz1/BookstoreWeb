@@ -86,6 +86,7 @@
   margin: 36px 4px 0px;
   gap: 24px;
   font-size: 24px;
+  font-family: var(--title-font-family);
 }
 
 .add-to-cart, .shop-category{

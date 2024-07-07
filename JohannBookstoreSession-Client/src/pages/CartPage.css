@@ -1,20 +1,65 @@
 .cart-page {
-    display: flex;
-    flex-direction: column; /* Stack children vertically */
-    justify-content: flex-start !important; 
-    align-items: center; /* Center items horizontally */
-  
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center items horizontally */
+  /* background-color: #dbc3c3; */
+  padding-top: 100px; /* Ensure space for the fixed title */
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 10px;
 
-    /* Background or other styles */
-    background-color: #dbc3c3;
-    padding: 20px;
-    margin-bottom: 20px; /* Add space below the title */
-    margin-top: 20px; /* Add space above the title */
+  /* position: fixed;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000; 
+  margin-top: 0;  */
+}
 
-  }
-  
-  .cart-title {
-    text-align: center;
-    margin-top: 20px; /* Add space above the title */
-    margin-bottom: 20px; /* Add space below the title */
-  }
+.cart-title {
+  font-family: var(--title-font-family);
+  font-size: 54px;
+}
+
+/* .cart-title {
+  position: fixed;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  z-index: 1000; 
+  margin-top: 0; 
+} */
+
+.cart-buttons {
+  padding: 20px;
+  display: flex;
+  flex-direction: row; /* Stack children horizontally */
+  justify-content: center;
+  gap: 24px;
+  font-size: 24px;
+  font-family: var(--title-font-family);
+}
+
+.cart-button {
+  background-color: #B76E79;
+  color: white;
+  padding: 10px 20px;
+}
+
+.cart-button:hover {
+  background-color: #a7626d;
+  cursor: pointer;
+}
+
+.empty-cart-message {
+  text-align: center;
+  font-size: 24px;
+  font-family: var(--body-font-family);
+  color: #333;
+  margin-top: 20px;
+}
+
+.empty-cart-message p {
+  margin: 0;
+}

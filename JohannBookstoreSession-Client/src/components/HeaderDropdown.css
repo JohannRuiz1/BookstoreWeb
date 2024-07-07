@@ -25,6 +25,26 @@
   padding: 0px 0px 0px 48px;
 }
 
+.header-dropdown .dropdown-menu {
+  background-color: white;
+  color: black;
+  display: block;
+  position: absolute;
+  top: 100%; /* Position below the dropdown */
+  border: 1px solid #ccc;
+  font-family: var(--title-font-family);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+}
+
+.header-dropdown .dropdown-menu.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
 .header-dropdown ul {
   background-color: white;
   color: black;
