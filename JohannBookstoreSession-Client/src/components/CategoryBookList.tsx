@@ -37,7 +37,7 @@ export default function CategoryBookList() {
   }
 
   const bookBoxList = books.map((myBook) => (
-      <CategoryBookListItem book={myBook} />
+      <CategoryBookListItem book={myBook} key={myBook.bookId}/>
   ));
   return (
     <div className="book-content">
